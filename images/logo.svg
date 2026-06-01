@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <rect width="120" height="120" rx="16" fill="#06040a"/>
+  <rect x="2" y="2" width="116" height="116" rx="14" stroke="#c9a84c" stroke-width="2" fill="none"/>
+  <!-- Circuit/code brackets icon -->
+  <g transform="translate(25, 20)" fill="none" stroke="#c9a84c" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Left bracket -->
+    <polyline points="20,0 8,20 20,40"/>
+    <!-- Right bracket -->
+    <polyline points="50,0 62,20 50,40"/>
+    <!-- Slash -->
+    <line x1="40" y1="2" x2="30" y2="38"/>
+    <!-- Dots/nodes -->
+    <circle cx="10" cy="50" r="3" fill="#c9a84c"/>
+    <circle cx="35" cy="50" r="3" fill="#e8c97a"/>
+    <circle cx="60" cy="50" r="3" fill="#c9a84c"/>
+    <!-- Connection lines -->
+    <line x1="13" y1="50" x2="32" y2="50"/>
+    <line x1="38" y1="50" x2="57" y2="50"/>
+  </g>
+  <!-- Text -->
+  <text x="60" y="88" text-anchor="middle" fill="#c9a84c" font-family="sans-serif" font-size="10" font-weight="700" letter-spacing="3">TECH</text>
+  <text x="60" y="102" text-anchor="middle" fill="#e8c97a" font-family="sans-serif" font-size="7" font-weight="400" letter-spacing="4">SOLUTIONS</text>
+</svg>
