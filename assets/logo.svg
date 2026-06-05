@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="gts" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4A94B"/>
+      <stop offset="100%" stop-color="#b8912f"/>
+    </linearGradient>
+  </defs>
+  <!-- Background circle -->
+  <circle cx="100" cy="100" r="90" fill="#1a1a2e"/>
+  <circle cx="100" cy="100" r="82" fill="none" stroke="url(#gts)" stroke-width="2"/>
+  <!-- Monitor / Screen -->
+  <rect x="55" y="45" width="90" height="65" rx="5" fill="none" stroke="url(#gts)" stroke-width="2.5"/>
+  <rect x="60" y="50" width="80" height="55" rx="3" fill="none" stroke="url(#gts)" stroke-width="1"/>
+  <!-- Screen content: code brackets -->
+  <text x="75" y="82" font-family="monospace" font-size="28" fill="url(#gts)" opacity="0.9">&lt;/&gt;</text>
+  <!-- Monitor stand -->
+  <line x1="100" y1="110" x2="100" y2="125" stroke="url(#gts)" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="80" y1="125" x2="120" y2="125" stroke="url(#gts)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Circuit nodes -->
+  <circle cx="55" cy="140" r="4" fill="url(#gts)" opacity="0.7"/>
+  <circle cx="80" cy="150" r="3" fill="url(#gts)" opacity="0.5"/>
+  <circle cx="100" cy="145" r="4" fill="url(#gts)" opacity="0.7"/>
+  <circle cx="120" cy="150" r="3" fill="url(#gts)" opacity="0.5"/>
+  <circle cx="145" cy="140" r="4" fill="url(#gts)" opacity="0.7"/>
+  <!-- Connection lines -->
+  <line x1="59" y1="140" x2="77" y2="150" stroke="url(#gts)" stroke-width="1" opacity="0.5"/>
+  <line x1="83" y1="150" x2="96" y2="145" stroke="url(#gts)" stroke-width="1" opacity="0.5"/>
+  <line x1="104" y1="145" x2="117" y2="150" stroke="url(#gts)" stroke-width="1" opacity="0.5"/>
+  <line x1="123" y1="150" x2="141" y2="140" stroke="url(#gts)" stroke-width="1" opacity="0.5"/>
+  <!-- Gear icon -->
+  <circle cx="45" cy="65" r="8" fill="none" stroke="url(#gts)" stroke-width="1.5"/>
+  <circle cx="45" cy="65" r="3" fill="url(#gts)"/>
+</svg>
